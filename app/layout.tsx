@@ -1,8 +1,8 @@
 "use client";
 
 import "./globals.css";
-import { Inter } from "next/font/google";
 import Navbar from "@/components/Navbar";
+import Footer from "@/components/Footer";
 import { ThemeProvider } from "next-themes";
 
 export const metadata = {
@@ -21,6 +21,7 @@ export default function RootLayout({
         <ThemeProvider enableSystem={true} attribute="class">
           <Navbar />
           {children}
+          <Footer />
         </ThemeProvider>
       </body>
     </html>
