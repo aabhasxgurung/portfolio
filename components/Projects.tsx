@@ -10,18 +10,28 @@ const projects = [
     description: "It is a simple tic-tac-toe",
     image: "/TicTacToe.png",
     github: "https://github.com/aabhasxgurung/JS/tree/master/TicTacToe",
+    link: "https://github.com/aabhasxgurung/JS/tree/master/TicTacToe",
   },
   {
     name: "ToDo App",
     description: "It is a web application for todo tasks",
     image: "/Todo.png",
     github: "https://github.com/aabhasxgurung/JS/tree/master/Todo",
+    link: "https://github.com/aabhasxgurung/JS/tree/master/Todo",
   },
   {
     name: "Portfolio",
     description: "It is a portfolio",
     image: "/portfolio.png",
     github: "https://github.com/aabhasxgurung/portfolio",
+    link: "https://portfolio-8xjyqw602-aabhasxgurung.vercel.app/",
+  },
+  {
+    name: "Aabhas Ko Hotel",
+    description: "It is a hotel booking website",
+    image: "/hotel.png",
+    github: "https://github.com/aabhasxgurung/portfolio",
+    link: "https://aabhaskobooking-4lhi8xjzx-aabhasxgurung.vercel.app/",
   },
 ];
 
@@ -39,7 +49,7 @@ const Projects = () => {
             <div key={idx}>
               <div className="flex flex-col md:flex-row md:space-x-12">
                 <div className="mt-8 md:w-1/2">
-                  <Link href={project.github} target="_blank">
+                  <Link href={project.link} target="_blank">
                     {" "}
                     <Image
                       src={project.image}
