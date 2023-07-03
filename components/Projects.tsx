@@ -20,11 +20,12 @@ const projects = [
     link: "https://github.com/aabhasxgurung/JS/tree/master/Todo",
   },
   {
-    name: "Portfolio",
-    description: "It is a portfolio",
-    image: "/portfolio.png",
-    github: "https://github.com/aabhasxgurung/portfolio",
-    link: "https://portfolio-8xjyqw602-aabhasxgurung.vercel.app/",
+    name: "Veda Studios",
+    description:
+      "Its a web application developed for veda studios and it deals a lot with css and apis",
+    image: "/veda.png",
+    github: "https://github.com/aabhasxgurung/veda-Assignment",
+    link: "https://veda-assignment.vercel.app/",
   },
   {
     name: "Aabhas Ko Hotel",
