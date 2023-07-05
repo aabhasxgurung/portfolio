@@ -21,8 +21,7 @@ const projects = [
   },
   {
     name: "Veda Studios",
-    description:
-      "Its a web application developed for veda studios and it deals a lot with css and apis",
+    description: "Its a web application developed for veda studios",
     image: "/veda.png",
     github: "https://github.com/aabhasxgurung/veda-Assignment",
     link: "https://veda-assignment.vercel.app/",
@@ -33,6 +32,13 @@ const projects = [
     image: "/hotel.png",
     github: "https://github.com/aabhasxgurung/portfolio",
     link: "https://aabhaskobooking-4lhi8xjzx-aabhasxgurung.vercel.app/",
+  },
+  {
+    name: "Netflix Clone",
+    description: "It is a clone of Netflix",
+    image: "/netflix.png",
+    github: "https://github.com/aabhasxgurung/netflix",
+    link: "https://netflix-mauve-nu.vercel.app/auth",
   },
 ];
 
